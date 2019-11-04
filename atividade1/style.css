@@ -8,9 +8,9 @@
 }
 
 #logo-ifpb {
-    width: 100%;
+    width: 80%;
     display: block;
-    margin: 50px auto;
+    margin: 30px auto;
 }
 
 label {
@@ -25,15 +25,15 @@ input {
     margin-bottom: 20px;
     background: #f1f1f1;
     border-radius: 4px;
-    padding: 16px 20px;
+    padding: 16px 10px;
     margin-top: 10px;
     border: none;
 }
 
 select {
     font-size: 20px;
-    width: 110%;
-    padding: 16px 20px;
+    width: 105%;
+    padding: 16px 10px;
     border: none;
     border-radius: 4px;
     background: #f1f1f1;
@@ -42,7 +42,17 @@ select {
 
 button {
     border: none;
-    font-size: 15px;
+    font-size: 20px;
     border-radius: 3px;
-    padding: 5px 15px;
+    padding: 5px 20px;
+    background: #007BFF;
+    color: white;
+    transition: 0.5s background;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0069D9;
+    transition: 0.5s background;
 }

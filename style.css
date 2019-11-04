@@ -1,0 +1,24 @@
+* {
+    font-family: calibri;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.conteudo {
+    margin-top: 50px;
+}
+
+.atividades {
+    width: 30%;
+    padding: 20px 50px;
+    float: left;
+}
+
+.imagem {
+    margin: 0 auto;
+    width: 40%;
+    float: right;
+    margin-right: 150px;
+}
