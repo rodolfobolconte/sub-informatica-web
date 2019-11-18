@@ -1,7 +1,8 @@
 .voltar-pagina-principal {display: fixed;bottom: 0px;position: absolute;margin: 5px;padding: 5px;text-align: center;background: #006699;color: white;transition: 0.5s background;border-radius: 5px;} .voltar-pagina-principal:hover {transition: 0.5s background;background: gray;}
 
 * {
-    font-family: calibri;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
 }
 
 body {
@@ -9,9 +10,9 @@ body {
 }
 
 #container {
-    max-width: 50%;
+    max-width: 40%;
     margin: auto;
-    margin-top: 30%;
+    margin-top: 10%;
 }
 
 #logo-ifpb {
@@ -29,9 +30,9 @@ body {
 }
 
 .input-container input {
+    color: gray;
     padding: 10px;
     box-sizing: border-box;
-    font-size: 15px;
     width: 100%;
     background: #082336;
     border: none;
@@ -41,14 +42,8 @@ body {
     border-radius: 0px 10px 10px 0px;
 }
 
-label {
-    display: block;
-    font-size: 20px;
-}
-
 button {
     border: none;
-    font-size: 15px;
     border-radius: 3px;
     padding: 5px 20px;
     background: #3AE5B0;
@@ -56,11 +51,12 @@ button {
     transition: 0.5s background;
     margin-top: 20px;
     cursor: pointer;
-    width: 50%;
+    width: 100px;
+    box-sizing: border-box;
 }
 
 button:hover {
-    background: #0069D9;
+    background: #2B83BB;
     transition: 0.5s background;
 }
 
@@ -87,11 +83,17 @@ button:hover {
     text-decoration: none;
 }
 
-.check-container span, .check-container input {
+.check-container span{
     float: left;
     color: gray;
 }
 
-.check-container input {
-    border-radius: 10px ;
+.check-container #check {
+    float: left;
+    -webkit-appearance: none;
+    padding: 5px;
+    border-radius: 50px;
+    border: 2px solid gray;
+    height: 20px;
+    width: 20px;
 }
