@@ -3,22 +3,32 @@
 <head>
     <title>IFPB Campus Campina Grande | Login</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <div class="voltar-;pagina-inicial"></div>
+    <script src="https://kit.fontawesome.com/47257d7297.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <div id="container">
-        <form>
-            <input class="info" type="text" name="login" placeholder="Username"/>
+    <body>
+        <a href="../index.html"><div class="voltar-pagina-principal">PÁGINA<br>PRINCIPAL</div></a>
 
-            <input class="info" type="password" name="password" placeholder="Password"/>
+        <div id="container">
+            <form>
+                <div class="input-container">
+                    <i class="fas fa-user icon"></i>
+                    <input type="Username" name="Username" placeholder="Username">
+                </div>
 
-            <input class="check" type="checkbox" name="Remember me"/>
-            <label class="check-label">Remember me</label>
+                <div class="input-container">
+                    <i class="fas fa-lock icon"></i>
+                    <input type="password" name="password" placeholder="Password">
+                </div>
 
-            <a class="forgot" href="#">Forgot Password?</a>
+                <div class="check-container">
+                    <input type="checkbox" name="remember me">
+                    <span>Remember me</span>
 
-            <button class="botao-login" type="submit">LOGIN</button>
-        </form>
-    </div>
-</body>
+                    <a href="#"><i>Forgot Password?</i></a>
+                </div>
+
+                <button type="submit">LOGIN</button>
+            </form>
+        </div>
+    </body>
 </html>
