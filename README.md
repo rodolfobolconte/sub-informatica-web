@@ -5,3 +5,5 @@ As atividades práticas se encontram no seguinte link: [https://rodolfobolconte.
 ## Lista de Atividades Práticas
 * [Prática 1 - Tela de Login do IFPB](https://rodolfobolconte.github.io/sub-informatica-web/pratica1/index.html);
 * [Atividade 1 - Tela de Login Comum](https://rodolfobolconte.github.io/sub-informatica-web/atividade1/index.html);
+* [Atividade 2 - Página com Sidebars e Table](https://rodolfobolconte.github.io/sub-informatica-web/atividade2/index.html);
+* [Laboratório 1 - Página de Alunos Cadastrados](https://rodolfobolconte.github.io/sub-informatica-web/laboratorio1/index.html);
