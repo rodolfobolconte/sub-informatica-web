@@ -1,4 +1,4 @@
-.voltar-pagina-principal {display: fixed;bottom: 0px;position: absolute;margin: 5px;padding: 5px;text-align: center;background: #006699;color: white;transition: 0.5s background;border-radius: 5px;z-index: 9999} .voltar-pagina-principal:hover {transition: 0.5s background;background: gray;}
+.voltar-pagina-principal {display: fixed;bottom: 0px;position: absolute;margin: 5px;padding: 5px;text-align: center;background: #006699;color: white;transition: 0.5s background;border-radius: 5px;z-index: 9999;font-family: calibri;font-size: 16px;} .voltar-pagina-principal:hover {transition: 0.5s background;background: gray;}
 
 * {
     font-family: arial;
