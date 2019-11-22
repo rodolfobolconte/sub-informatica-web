@@ -1,0 +1,153 @@
+.home-github {display: fixed;position: absolute;margin: 5px;padding: 5px;color: white;z-index: 9999;font-size: 20px;bottom: 0px;}.home-github .i-principal {color: white;border-radius: 5px;padding: 5px;transition: 0.5s background;}.home-github .i-pr-home {background: #069;}.home-github .i-pr-git {background: purple;}.home-github .i-principal:hover {transition: 0.5s background;background: gray;}
+
+* {
+    font-family: arial;
+}
+
+#topbar {
+    display: block;
+    box-sizing: border-box;
+}
+
+#sidebar, #container {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#topbar {
+    background: #069;
+    height: 20%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-sizing: border-box;
+    border-bottom: 5px solid white;
+    padding: 10px;
+}
+
+#sidebar {
+    background: green;
+    height: 100px;
+    width: 15%;
+    position: absolute;
+    left: 0px;
+    top: 20%;
+    height: 80%;
+    border-right: 5px solid white;
+}
+
+#container {
+    background: orange;
+    height: 80%;
+    width: 85%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    box-sizing: border-box;
+    padding: 20px 50px;
+    overflow: auto;
+}
+
+#topbar #titulo-pagina, #topbar #sub-titulo-pagina {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+#topbar #titulo-pagina {
+    font-size: 20px;
+}
+
+#topbar #sub-titulo-pagina {
+    font-size: 15px;
+}
+
+.tabela-estilo {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.tabela-estilo th, .tabela-estilo td {
+    padding: 10px;
+}
+
+.tabela-estilo thead th {
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+#salas .tabela-estilo thead th {background: #069;}
+#alunos .tabela-estilo thead th {background: green;}
+
+.tabela-estilo tbody tr:nth-child(odd) {
+    background: #F2F2F2;
+}
+
+.tabela-estilo tbody tr:nth-child(even) {
+    background: #FFFFFF;
+}
+
+.menu-item {
+    box-sizing: border-box;
+    border-bottom: 1px solid white;
+    width: 100%;
+    margin: 0px;
+    padding: 15px;
+    text-transform: uppercase;
+    color: white;
+    transition: 0.5s background;
+    cursor: pointer;
+    text-align: center;
+}
+
+.menu-item:hover {
+    background: orange;
+    transition: 0.5s background;
+}
+
+.container-secao {
+    display: none;
+}
+
+.titulo-secao-container {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#inicio {
+    display: block;
+}
+
+.opcoes-secoes {
+    box-sizing: border-box;
+    background: white;
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    height: 200px;
+    transition: 0.5s background, 0.5s color;
+    cursor: pointer;
+}
+
+.opcoes-secoes:hover {
+    background: #069;
+    transition: 0.5s background, 0.5s color;
+    color: white;
+}
+
+.opcoes-secoes i {
+    display: block;
+    font-size: 50px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.opcoes-secoes span {
+    text-transform: uppercase;
+    font-weight: 700;
+}

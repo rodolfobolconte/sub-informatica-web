@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IFPB Campus Campina Grande | Login</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://kit.fontawesome.com/47257d7297.js" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            function mudarPage(idPage) {
+                let secoes = document.getElementsByClassName('container-secao');
+                for (var i=0; i<secoes.length; i++) {
+                    if (secoes[i].id == idPage) {
+                        secoes[i].style.display = 'block';
+                    } else {
+                        secoes[i].style.display = 'none';
+                    }
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        <div class="home-github">
+            <a title="Página Inicial" href="../index.html"><i class="fas fa-home i-principal i-pr-home"></i></a>
+            <a title="Repositório no GitHub" href="https://github.com/rodolfobolconte/sub-informatica-web/tree/master/pratica2" target="_blank"><i class="fab fa-github i-principal i-pr-git"></i></a>
+        </div>
+
+        <div id="topbar">
+            <h1 id="titulo-pagina">Prática 2 - Navegação em Menu com JavaScript</h1>
+            <h2 id="sub-titulo-pagina">Prática 2 da Disciplina de Desenvolvimento de Aplicações WEB I para treino de navegação em Menus utilizando JavaScript para exibição/ocultação de conteúdo.</h2>
+
+        </div>
+
+        <div id="sidebar">
+            <p class="menu-item" onclick="mudarPage('inicio')">início</p>
+            <p class="menu-item" onclick="mudarPage('salas')">salas</p>
+            <p class="menu-item" onclick="mudarPage('alunos')">alunos</p>
+            <p class="menu-item" onclick="mudarPage('sobre')">sobre</p>
+        </div>
+
+        <div id="container">
+
+            <div id="inicio" class="container-secao">
+                <h2 class="titulo-secao-container">Página Principal</h2>
+
+                <br/>
+
+                <div onclick="mudarPage('salas')" class="opcoes-secoes">
+                    <i class="fas fa-map-marked"></i>
+                    <span>Salas e Laboratórios</span>
+                </div>
+                
+                <div onclick="mudarPage('alunos')" class="opcoes-secoes">
+                    <i class="fas fa-users"></i>
+                    <span>Alunos</span>
+                </div>
+                
+                <div onclick="mudarPage('sobre')" class="opcoes-secoes">
+                    <i class="fas fa-file-alt"></i>
+                    <span>Sobre</span>
+                </div>
+            </div>
+
+            <div id="salas" class="container-secao">
+                <h2 class="titulo-secao-container">Salas e Laboratórios</h2>
+
+                <br/>
+
+                <table class="tabela-estilo" cellspacing="0" cellpadding="0">
+                    <thead>
+                        <tr>
+                            <th>sala/laboratório</th>
+                            <th>local</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Sala 01</td>
+                            <td>Central de Aulas</td>
+                        </tr>
+
+                        <tr>
+                            <td>Sala 02</td>
+                            <td>Central de Aulas</td>
+                        </tr>
+
+                        <tr>
+                            <td>Sala 03</td>
+                            <td>Central de Aulas</td>
+                        </tr>
+
+                        <tr>
+                            <td>Sala 04</td>
+                            <td>Central de Aulas</td>
+                        </tr>
+
+                        <tr>
+                            <td>Laboratório de Programação 01</td>
+                            <td>Bloco de Engenharia</td>
+                        </tr>
+
+                        <tr>
+                            <td>Laboratório de Programação 02</td>
+                            <td>Bloco de Engenharia</td>
+                        </tr>
+
+                        <tr>
+                            <td>Laboratório de Programação 03</td>
+                            <td>Bloco de Telemática</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="alunos" class="container-secao">
+                <h2 class="titulo-secao-container">Informações de Alunos</h2>
+
+                <br/>
+
+                <table class="tabela-estilo" cellspacing="0" cellpadding="0">
+                    <thead>
+                        <tr>
+                            <th>name</th>
+                            <th>position</th>
+                            <th>office</th>
+                            <th>age</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Airi Satou</td>
+                            <td>Accountant</td>
+                            <td>Tokyo</td>
+                            <td>33</td>
+                        </tr>
+
+                        <tr>
+                            <td>Angelica Ramos</td>
+                            <td>Chief Executive Officer</td>
+                            <td>London</td>
+                            <td>47</td>
+                        </tr>
+
+                        <tr>
+                            <td>Ashton Cox</td>
+                            <td>Junior Technical Author</td>
+                            <td>San Francisco </td>
+                            <td>66</td>
+                        </tr>
+
+                        <tr>
+                            <td>Bradley Greer</td>
+                            <td>Software Engineer</td>
+                            <td>London</td>
+                            <td>41</td>
+                        </tr>
+
+                        <tr>
+                            <td>Airi Satou</td>
+                            <td>Software Engineer</td>
+                            <td>San Francisco</td>
+                            <td>26</td>
+                        </tr>
+
+                        <tr>
+                            <td>Airi Satou</td>
+                            <td>Software Engineer</td>
+                            <td>San Francisco</td>
+                            <td>26</td>
+                        </tr>
+
+                        <tr>
+                            <td>Airi Satou</td>
+                            <td>Software Engineer</td>
+                            <td>San Francisco</td>
+                            <td>26</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="sobre" class="container-secao">
+                <h2 class="titulo-secao-container">Sobre a Plataforma</h2>
+
+                <br/>
+
+                <p style="color: white">Plataforma criada para exibição de informações sobre os Alunos da Instituição e Locais de Sala e Laboratórios da Central de Aulas e dos Blocos de Engenharia e Telemática.</p>
+            </div>
+        </div>
+    </body>
+</html>
