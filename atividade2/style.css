@@ -1,84 +1,99 @@
 .home-github {display: fixed;position: absolute;margin: 5px;padding: 5px;color: white;z-index: 9999;font-size: 20px;bottom: 0px;}.home-github .i-principal {color: white;border-radius: 5px;padding: 5px;transition: 0.5s background;}.home-github .i-pr-home {background: #069;}.home-github .i-pr-git {background: purple;}.home-github .i-principal:hover {transition: 0.5s background;background: gray;}
 
 * {
-    font-family: arial;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
 }
 
-#topbar {
-    display: block;
-    box-sizing: border-box;
-}
-
-#sidebar, #container {
-    display: inline-block;
-    box-sizing: border-box;
-}
-
-#topbar {
-    background: brown;
-    height: 10%;
-    width: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    box-sizing: border-box;
-    border-bottom: 5px solid white;
-    padding: 10px;
-}
-
-#sidebar {
-    background: cornflowerblue;
-    height: 100px;
-    width: 15%;
-    position: absolute;
-    left: 0px;
-    top: 10%;
-    height: 90%;
-    border-right: 5px solid white;
+body {
+    background: #00121E;
 }
 
 #container {
-    background: green;
-    height: 90%;
-    width: 85%;
-    position: absolute;
-    top: 10%;
-    left: 15%;
-    box-sizing: border-box;
-    padding: 50px 150px;
-    overflow: auto;
+    max-width: 40%;
+    margin: auto;
+    margin-top: 10%;
 }
 
-#topbar #titulo-pagina, #container #titulo-container {
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
-    font-size: 15px;
+#logo-ifpb {
+    width: 80%;
+    display: block;
+    margin: 30px auto;
 }
 
-#tabela-membros {
+.input-container {
+    display: flex;
     width: 100%;
-    text-align: center;
-    font-size: 15px;
+    padding: 0px;
+    margin: 10px 0px;
     box-sizing: border-box;
 }
 
-#tabela-membros th, #tabela-membros td {
-    padding: 20px;
+.input-container input {
+    color: gray;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    background: #082336;
+    border: none;
+    border-top: 1px solid #3193D1;
+    border-right: 1px solid #3193D1;
+    border-bottom: 1px solid #3193D1;
+    border-radius: 0px 10px 10px 0px;
 }
 
-#tabela-membros thead th {
-    background: darkblue;
-    color: white;
-    text-transform: uppercase;
-    font-size: 18px;
+button {
+    border: none;
+    border-radius: 3px;
+    padding: 5px 20px;
+    background: #3AE5B0;
+    color: black;
+    transition: 0.5s background;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100px;
+    box-sizing: border-box;
 }
 
-#tabela-membros tbody tr:nth-child(odd) {
-    background: #F2F2F2;
+button:hover {
+    background: #2B83BB;
+    transition: 0.5s background;
 }
 
-#tabela-membros tbody tr:nth-child(even) {
-    background: #FFFFFF;
+.icon {
+    padding: 15px;
+    color: #3193D1;
+    min-width: 10%;
+    text-align: center;
+    background: #082336;
+    border-top: 1px solid #3193D1;
+    border-left: 1px solid #3193D1;
+    border-bottom: 1px solid #3193D1;
+    border-radius: 10px 0px 0px 10px;
 }
 
+#legenda {
+    text-align: center;
+    color: darkgray;
+}
+
+.check-container a {
+    float: right;
+    color: gray;
+    text-decoration: none;
+}
+
+.check-container span{
+    float: left;
+    color: gray;
+}
+
+.check-container #check {
+    float: left;
+    -webkit-appearance: none;
+    padding: 5px;
+    border-radius: 50px;
+    border: 2px solid gray;
+    height: 20px;
+    width: 20px;
+}

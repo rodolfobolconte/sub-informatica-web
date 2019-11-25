@@ -1,18 +1,12 @@
 .home-github {display: fixed;position: absolute;margin: 5px;padding: 5px;color: white;z-index: 9999;font-size: 20px;bottom: 0px;}.home-github .i-principal {color: white;border-radius: 5px;padding: 5px;transition: 0.5s background;}.home-github .i-pr-home {background: #069;}.home-github .i-pr-git {background: purple;}.home-github .i-principal:hover {transition: 0.5s background;background: gray;}
 
 * {
-    font-family: 'Bebas Neue';
-    font-size: 20px;
-}
-
-body {
-    background: #00121E;
+    font-family: calibri;
 }
 
 #container {
-    max-width: 40%;
+    max-width: 30%;
     margin: auto;
-    margin-top: 10%;
 }
 
 #logo-ifpb {
@@ -24,76 +18,64 @@ body {
 .input-container {
     display: flex;
     width: 100%;
+    background: blue;
     padding: 0px;
     margin: 10px 0px;
     box-sizing: border-box;
 }
 
 .input-container input {
-    color: gray;
     padding: 10px;
     box-sizing: border-box;
+    font-size: 20px;
     width: 100%;
-    background: #082336;
+    background: #f1f1f1;
     border: none;
-    border-top: 1px solid #3193D1;
-    border-right: 1px solid #3193D1;
-    border-bottom: 1px solid #3193D1;
-    border-radius: 0px 10px 10px 0px;
+}
+
+.input-container select {
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    font-size: 20px;
+    width: 100%;
+    border: none;
+    background: #f1f1f1;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    font-size: 20px;
 }
 
 button {
     border: none;
+    font-size: 20px;
     border-radius: 3px;
     padding: 5px 20px;
-    background: #3AE5B0;
-    color: black;
+    background: #007BFF;
+    color: white;
     transition: 0.5s background;
     margin-top: 20px;
     cursor: pointer;
-    width: 100px;
-    box-sizing: border-box;
+    width: 100%;
 }
 
 button:hover {
-    background: #2B83BB;
+    background: #0069D9;
     transition: 0.5s background;
 }
 
 .icon {
-    padding: 15px;
-    color: #3193D1;
-    min-width: 10%;
-    text-align: center;
-    background: #082336;
-    border-top: 1px solid #3193D1;
-    border-left: 1px solid #3193D1;
-    border-bottom: 1px solid #3193D1;
-    border-radius: 10px 0px 0px 10px;
+  padding: 15px;
+  background: dodgerblue;
+  color: white;
+  min-width: 10%;
+  text-align: center;
 }
 
 #legenda {
     text-align: center;
     color: darkgray;
-}
-
-.check-container a {
-    float: right;
-    color: gray;
-    text-decoration: none;
-}
-
-.check-container span{
-    float: left;
-    color: gray;
-}
-
-.check-container #check {
-    float: left;
-    -webkit-appearance: none;
-    padding: 5px;
-    border-radius: 50px;
-    border: 2px solid gray;
-    height: 20px;
-    width: 20px;
 }

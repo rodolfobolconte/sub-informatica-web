@@ -1,46 +1,91 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>IFPB Campus Campina Grande | Login</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="https://kit.fontawesome.com/47257d7297.js" crossorigin="anonymous"></script>
-</head>
+    <head>
+        <title>IFPB Campus Campina Grande | Login</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://kit.fontawesome.com/47257d7297.js" crossorigin="anonymous"></script>
+    </head>
+
     <body>
         <div class="home-github">
             <a title="Página Inicial" href="../index.html"><i class="fas fa-home i-principal i-pr-home"></i></a>
             <a title="Repositório no GitHub" href="https://github.com/rodolfobolconte/sub-informatica-web/tree/master/pratica1" target="_blank"><i class="fab fa-github i-principal i-pr-git"></i></a>
         </div>
 
+        <div id="topbar">
+            <h1 id="titulo-pagina">Atividade 2 - Displays, Positions e Tables</h1>
+        </div>
+
+        <div id="sidebar">
+            
+        </div>
+
         <div id="container">
-            <img id="logo-ifpb" src="https://ieeeifpbcg.org/wp-content/uploads/2018/06/ifpb-campina-grande.png"/>
+            <h2 id="titulo-container">Atividade 2 da Disciplina de Desenvolvimento de Aplicações WEB I para treino de DIVs com Display e Position em CSS, além de Table em HTML.</h2>
 
-            <form>
-                <label>Login</label>
-                <div class="input-container">
-                    <i class="fas fa-user icon"></i>
-                    <input type="text" name="login">
-                </div>
+            <br/>
+            
+            <table id="tabela-membros">
+                <thead>
+                    <tr>
+                        <th>name</th>
+                        <th>position</th>
+                        <th>office</th>
+                        <th>age</th>
+                    </tr>
+                </thead>
 
-                <label>Senha</label>
-                <div class="input-container">
-                    <i class="fas fa-key icon"></i>
-                    <input type="password" name="password">
-                </div>
+                <tbody>
+                    <tr>
+                        <td>Airi Satou</td>
+                        <td>Accountant</td>
+                        <td>Tokyo</td>
+                        <td>33</td>
+                    </tr>
 
-                <label>Curso</label>
-                <div class="input-container">
-                    <i class="fas fa-school icon"></i>
-                    <select>
-                        <option>Bacharel em Engenharia de Computação</option>
-                        <option>Subsequente em Informática</option>
-                        <option>Tecnólogo em Telemática</option>
-                    </select>
-                </div>
+                    <tr>
+                        <td>Angelica Ramos</td>
+                        <td>Chief Executive Officer</td>
+                        <td>London</td>
+                        <td>47</td>
+                    </tr>
 
-                <button type="submit">Entrar</button>
-            </form>
+                    <tr>
+                        <td>Ashton Cox</td>
+                        <td>Junior Technical Author</td>
+                        <td>San Francisco </td>
+                        <td>66</td>
+                    </tr>
 
-            <p id="legenda">Portal do Estudante | Desenvolvimento: IFPB</p>
+                    <tr>
+                        <td>Bradley Greer</td>
+                        <td>Software Engineer</td>
+                        <td>London</td>
+                        <td>41</td>
+                    </tr>
+
+                    <tr>
+                        <td>Airi Satou</td>
+                        <td>Software Engineer</td>
+                        <td>San Francisco</td>
+                        <td>26</td>
+                    </tr>
+
+                    <tr>
+                        <td>Airi Satou</td>
+                        <td>Software Engineer</td>
+                        <td>San Francisco</td>
+                        <td>26</td>
+                    </tr>
+
+                    <tr>
+                        <td>Airi Satou</td>
+                        <td>Software Engineer</td>
+                        <td>San Francisco</td>
+                        <td>26</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </body>
 </html>

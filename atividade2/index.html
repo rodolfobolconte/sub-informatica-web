@@ -1,91 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>IFPB Campus Campina Grande | Login</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <script src="https://kit.fontawesome.com/47257d7297.js" crossorigin="anonymous"></script>
-    </head>
-
+<head>
+    <title>IFPB Campus Campina Grande | Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/47257d7297.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
     <body>
         <div class="home-github">
             <a title="Página Inicial" href="../index.html"><i class="fas fa-home i-principal i-pr-home"></i></a>
             <a title="Repositório no GitHub" href="https://github.com/rodolfobolconte/sub-informatica-web/tree/master/atividade2" target="_blank"><i class="fab fa-github i-principal i-pr-git"></i></a>
         </div>
 
-        <div id="topbar">
-            <h1 id="titulo-pagina">Atividade 2 - Displays, Positions e Tables</h1>
-        </div>
-
-        <div id="sidebar">
-            
-        </div>
-
         <div id="container">
-            <h2 id="titulo-container">Atividade 2 da Disciplina de Desenvolvimento de Aplicações WEB I para treino de DIVs com Display e Position em CSS, além de Table em HTML.</h2>
+            <form>
+                <div class="input-container">
+                    <i class="fas fa-user icon"></i>
+                    <input type="Username" name="Username" placeholder="Username">
+                </div>
 
-            <br/>
-            
-            <table id="tabela-membros">
-                <thead>
-                    <tr>
-                        <th>name</th>
-                        <th>position</th>
-                        <th>office</th>
-                        <th>age</th>
-                    </tr>
-                </thead>
+                <div class="input-container">
+                    <i class="fas fa-lock icon"></i>
+                    <input type="password" name="password" placeholder="Password">
+                </div>
 
-                <tbody>
-                    <tr>
-                        <td>Airi Satou</td>
-                        <td>Accountant</td>
-                        <td>Tokyo</td>
-                        <td>33</td>
-                    </tr>
+                <div class="check-container">
+                    <input id="check" type="checkbox" name="remember me">
+                    <span>Remember me</span>
 
-                    <tr>
-                        <td>Angelica Ramos</td>
-                        <td>Chief Executive Officer</td>
-                        <td>London</td>
-                        <td>47</td>
-                    </tr>
+                    <a href="#"><i>Forgot Password?</i></a>
+                </div>
 
-                    <tr>
-                        <td>Ashton Cox</td>
-                        <td>Junior Technical Author</td>
-                        <td>San Francisco </td>
-                        <td>66</td>
-                    </tr>
-
-                    <tr>
-                        <td>Bradley Greer</td>
-                        <td>Software Engineer</td>
-                        <td>London</td>
-                        <td>41</td>
-                    </tr>
-
-                    <tr>
-                        <td>Airi Satou</td>
-                        <td>Software Engineer</td>
-                        <td>San Francisco</td>
-                        <td>26</td>
-                    </tr>
-
-                    <tr>
-                        <td>Airi Satou</td>
-                        <td>Software Engineer</td>
-                        <td>San Francisco</td>
-                        <td>26</td>
-                    </tr>
-
-                    <tr>
-                        <td>Airi Satou</td>
-                        <td>Software Engineer</td>
-                        <td>San Francisco</td>
-                        <td>26</td>
-                    </tr>
-                </tbody>
-            </table>
+                <div class="input-container">
+                    <button type="submit">LOGIN</button>
+                </div>
+            </form>
         </div>
     </body>
 </html>

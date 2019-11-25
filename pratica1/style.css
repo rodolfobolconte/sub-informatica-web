@@ -1,81 +1,84 @@
 .home-github {display: fixed;position: absolute;margin: 5px;padding: 5px;color: white;z-index: 9999;font-size: 20px;bottom: 0px;}.home-github .i-principal {color: white;border-radius: 5px;padding: 5px;transition: 0.5s background;}.home-github .i-pr-home {background: #069;}.home-github .i-pr-git {background: purple;}.home-github .i-principal:hover {transition: 0.5s background;background: gray;}
 
 * {
-    font-family: calibri;
+    font-family: arial;
+}
+
+#topbar {
+    display: block;
+    box-sizing: border-box;
+}
+
+#sidebar, #container {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#topbar {
+    background: brown;
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-sizing: border-box;
+    border-bottom: 5px solid white;
+    padding: 10px;
+}
+
+#sidebar {
+    background: cornflowerblue;
+    height: 100px;
+    width: 15%;
+    position: absolute;
+    left: 0px;
+    top: 10%;
+    height: 90%;
+    border-right: 5px solid white;
 }
 
 #container {
-    max-width: 30%;
-    margin: auto;
-}
-
-#logo-ifpb {
-    width: 80%;
-    display: block;
-    margin: 30px auto;
-}
-
-.input-container {
-    display: flex;
-    width: 100%;
-    background: blue;
-    padding: 0px;
-    margin: 10px 0px;
+    background: green;
+    height: 90%;
+    width: 85%;
+    position: absolute;
+    top: 10%;
+    left: 15%;
     box-sizing: border-box;
+    padding: 50px 150px;
+    overflow: auto;
 }
 
-.input-container input {
-    padding: 10px;
-    box-sizing: border-box;
-    font-size: 20px;
-    width: 100%;
-    background: #f1f1f1;
-    border: none;
-}
-
-.input-container select {
-    padding: 10px;
-    box-sizing: border-box;
-    border-radius: 0px;
-    font-size: 20px;
-    width: 100%;
-    border: none;
-    background: #f1f1f1;
-    box-sizing: border-box;
-}
-
-label {
-    display: block;
-    font-size: 20px;
-}
-
-button {
-    border: none;
-    font-size: 20px;
-    border-radius: 3px;
-    padding: 5px 20px;
-    background: #007BFF;
-    color: white;
-    transition: 0.5s background;
-    margin-top: 20px;
-    cursor: pointer;
-    width: 100%;
-}
-
-button:hover {
-    background: #0069D9;
-    transition: 0.5s background;
-}
-
-.icon {
-  padding: 15px;
-  background: dodgerblue;
-  color: white;
-  min-width: 10%;
-  text-align: center;
-}
-
-#legenda {
+#topbar #titulo-pagina, #container #titulo-container {
     text-align: center;
-    color: darkgray;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
 }
+
+#tabela-membros {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+#tabela-membros th, #tabela-membros td {
+    padding: 20px;
+}
+
+#tabela-membros thead th {
+    background: darkblue;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+#tabela-membros tbody tr:nth-child(odd) {
+    background: #F2F2F2;
+}
+
+#tabela-membros tbody tr:nth-child(even) {
+    background: #FFFFFF;
+}
+
