@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IFPB Campus Campina Grande | Login</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://kit.fontawesome.com/47257d7297.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+    </head>
+
+    <body>
+        <div class="home-github">
+            <a title="Página Inicial" href="../index.html"><i class="fas fa-home i-principal i-pr-home"></i></a>
+            <a title="Repositório no GitHub" href="https://github.com/rodolfobolconte/sub-informatica-web/tree/master/pratica3" target="_blank"><i class="fab fa-github i-principal i-pr-git"></i></a>
+        </div>
+
+        <div id="container">
+            <div id="topbar">
+                <img id="topbar-img" src="https://iisy.fi/wp-content/uploads/2018/08/user-profile-male-logo.jpg"/>
+
+                <span id="topbar-nome">Rodolfo Bolconte</span>
+                
+                <i id="topbar-menu" class="fas fa-bars"></i>
+            </div>
+
+            <div id="sidebar">
+                <p class="menu-item">início</p>
+                <p class="menu-item">horários</p>
+                <p class="menu-item">salas</p>
+                <p class="menu-item">alunos</p>
+                    <p class="menu-item menu-sub-item">registrar</p>
+                    <p class="menu-item menu-sub-item">ver</p>
+                    <p class="menu-item menu-sub-item">matricular</p>
+                <p class="menu-item">sobre</p>
+            </div>
+
+            <div id="article">
+                <table id="tabela-alunos" cellspacing="0" cellpadding="0">
+                    <thead>
+                        <tr id="tabela-alunos-head">
+                            <th colspan="4" id="tabela-titulo">Alunos Registrados</th>
+                            <th colspan="2">
+                                <button id="adicionar-todos-alunos">
+                                    <i class="fas fa-plus-circle"></i>
+                                    Adicionar Alunos
+                                </button>
+                                <button id="remover-todos-alunos">
+                                    <i class="fas fa-minus-circle"></i>
+                                    Remover Alunos
+                                </button>
+                            </th>
+                        </tr>
+                        <tr class="tabela-alunos-titulo-colunas">
+                            <th><input type="checkbox" name="" id="checkbox-tabela-alunos-todos"></th>
+                            <th>Nome</th>
+                            <th>Matrícula</th>
+                            <th>E-mail</th>
+                            <th>Telefone</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+
+                    <tbody class="tabela-alunos-corpo"></tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

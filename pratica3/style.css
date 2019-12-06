@@ -1,0 +1,155 @@
+.home-github {display: block;position: fixed;margin: 5px;padding: 5px;color: white;z-index: 9999;font-size: 20px;bottom: 0px;}.home-github .i-principal {color: white;border-radius: 5px;padding: 5px;transition: 0.5s background;}.home-github .i-pr-home {background: #069;}.home-github .i-pr-git {background: purple;}.home-github .i-principal:hover {transition: 0.5s background;background: gray;}
+
+#container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#topbar {
+    box-sizing: border-box;
+    border: 2px solid black;
+    background: lightgray;
+    height: 18%;
+    padding: 20px;
+}
+
+#topbar-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#topbar-nome {
+    box-sizing: border-box;
+    font-size: 20px;
+    display: inline-block;
+    margin: 15px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+#topbar-menu {
+    float: right;
+    font-size: 40px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#sidebar {
+    box-sizing: border-box;
+    float: right;
+    width: 20%;
+    margin-top: 10px;
+    background: lightgray;
+    height: 82%;
+    border: 2px solid black;
+}
+
+#sidebar .menu-item {
+    box-sizing: border-box;
+    border-bottom: 2px solid black;
+    margin: 0px 0px;
+    padding: 15px;
+    text-transform: uppercase;
+    font-family: arial;
+    cursor: pointer;
+    transition: 0.5s background;
+}
+
+#sidebar .menu-item:hover {
+    background: darkgray;
+    transition: 0.5s background;
+}
+
+#sidebar .menu-sub-item {
+    padding-left: 50px;
+}
+
+#article {
+    box-sizing: border-box;
+    float: left;
+    width: 79%;
+    height: 82%;
+    margin-top: 10px;
+    background: lightgray;
+    border: 2px solid black;
+}
+
+#tabela-alunos {
+    width: 100%;
+    text-align: left;
+    font-family: arial;
+    color: darkblue;
+    background: white;
+}
+
+#tabela-alunos-head {
+    background: darkblue;
+    color: white;
+}
+
+#tabela-alunos-head th {
+    padding: 15px;
+}
+
+#tabela-titulo {
+    font-size: 20px;
+}
+
+#remover-todos-alunos, #adicionar-todos-alunos {
+    box-sizing: border-box;
+    float: right;
+    border: none;
+    padding: 8px 10px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.5s background;
+    margin-left: 10px;
+}
+
+#adicionar-todos-alunos {background: #00dd00;}
+#remover-todos-alunos {background: #ff0000;}
+#adicionar-todos-alunos:hover {background: #00bb00;}
+#remover-todos-alunos:hover {background: #dd0000;}
+
+.tabela-alunos-titulo-colunas th {
+    padding: 10px;    
+}
+
+.tabela-alunos-corpo tr td {
+    padding: 10px;
+    font-size: 15px;
+}
+
+.tabela-alunos-corpo tr:nth-child(odd) {
+    background: #f1f1f1;
+}
+
+.tabela-alunos-corpo tr:nth-child(even) {
+    background: white;
+}
+
+.fa-pencil-alt {
+    color: orange;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.fa-trash {
+    color: #ff0000;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.e-mail {
+    cursor: pointer;
+}
