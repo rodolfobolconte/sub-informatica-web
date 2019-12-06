@@ -44,17 +44,25 @@ $(document).ready(function () {
     });
 
     $("#remover-todos-alunos").click(function () {
-        if (confirm('\nEsta ação excluirá todos os dados de alunos selecionados na checkbox!\n\nVocê confirma esta ação?')) {
-            
-            $(".checkbox-tabela-alunos").each(function () {
-                if ($(this).prop("checked")) {
-                    let pai = $(this).parent().parent();
-                    pai.remove();
-                }
-            });
 
-            $("#checkbox-tabela-alunos-todos").prop("checked", false);
-        }
+        let excluir = false;
+
+        $(".checkbox-tabela-alunos").each(function () {
+            if ($(this).prop("checked")) excluir = true;
+        })
+
+        if (excluir) 
+            if (confirm('\nEsta ação excluirá todos os dados de alunos selecionados na checkbox!\n\nVocê confirma esta ação?')) {
+                
+                $(".checkbox-tabela-alunos").each(function () {
+                    if ($(this).prop("checked")) {
+                        let pai = $(this).parent().parent();
+                        pai.remove();
+                    }
+                });
+
+                $("#checkbox-tabela-alunos-todos").prop("checked", false);
+            }
     });
 });
 
