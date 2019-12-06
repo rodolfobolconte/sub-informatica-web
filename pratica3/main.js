@@ -9,7 +9,7 @@ $(document).ready(function () {
     
 
     $("#adicionar-todos-alunos").click(function () {
-        if (confirm('Esta ação colocará 5 novos dados de alunos\nna tabela "Alunos Registrados", você confirma esta ação?')) {
+        if (confirm('\nEsta ação colocará 5 novos dados de alunos\nna tabela "Alunos Registrados"!\n\nVocê confirma esta ação?')) {
             let tabela = $(".tabela-alunos-corpo");
 
             for (let aluno in alunos) {
@@ -44,12 +44,17 @@ $(document).ready(function () {
     });
 
     $("#remover-todos-alunos").click(function () {
-        $(".checkbox-tabela-alunos").each(function () {
-            if ($(this).prop("checked")) {
-                let pai = $(this).parent().parent();
-                pai.remove();
-            }
-        })
+        if (confirm('\nEsta ação excluirá todos os dados de alunos selecionados na checkbox!\n\nVocê confirma esta ação?')) {
+            
+            $(".checkbox-tabela-alunos").each(function () {
+                if ($(this).prop("checked")) {
+                    let pai = $(this).parent().parent();
+                    pai.remove();
+                }
+            });
+
+            $("#checkbox-tabela-alunos-todos").prop("checked", false);
+        }
     });
 });
 
