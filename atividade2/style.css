@@ -1,4 +1,4 @@
-.home-github {display: fixed;position: absolute;margin: 5px;padding: 5px;color: white;z-index: 9999;font-size: 20px;bottom: 0px;}.home-github .i-principal {color: white;border-radius: 5px;padding: 5px;transition: 0.5s background;}.home-github .i-pr-home {background: #069;}.home-github .i-pr-git {background: purple;}.home-github .i-principal:hover {transition: 0.5s background;background: gray;}
+.home-github {display: block;position: fixed;margin: 5px;padding: 5px;color: white;z-index: 9999;font-size: 20px;bottom: 0px;}.home-github .i-principal {color: white;border-radius: 5px;padding: 5px;transition: 0.5s background;}.home-github .i-pr-home {background: #069;}.home-github .i-pr-git {background: purple;}.home-github .i-principal:hover {transition: 0.5s background;background: gray;}
 
 * {
     font-family: 'Bebas Neue';
