@@ -8,3 +8,4 @@ As atividades práticas se encontram no seguinte link: [https://rodolfobolconte.
 * [Prática 1 - Página com Sidebars e Table](https://rodolfobolconte.github.io/sub-informatica-web/pratica1/index.html);
 * [Laboratório 1 - Página de Alunos Cadastrados](https://rodolfobolconte.github.io/sub-informatica-web/laboratorio1/index.html);
 * [Prática 2 - Navegação em Menu com JavaScript](https://rodolfobolconte.github.io/sub-informatica-web/pratica2/index.html);
+* [Prática 3 - População de Tabela com JavaScript](https://rodolfobolconte.github.io/sub-informatica-web/pratica3/index.html);
