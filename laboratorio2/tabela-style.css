@@ -1,0 +1,243 @@
+.home-github {display: block;position: fixed;margin: 5px;padding: 5px;color: white;z-index: 9999;font-size: 20px;bottom: 0px;}.home-github .i-principal {color: white;border-radius: 5px;padding: 5px;transition: 0.5s background;}.home-github .i-pr-home {background: #069;}.home-github .i-pr-git {background: purple;}.home-github .i-principal:hover {transition: 0.5s background;background: gray;}
+
+#container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#topbar {
+    box-sizing: border-box;
+    border: 2px solid black;
+    background: lightgray;
+    height: 18%;
+    padding: 20px;
+}
+
+#topbar-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#topbar-nome {
+    box-sizing: border-box;
+    font-size: 20px;
+    display: inline-block;
+    margin: 15px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+#topbar-menu {
+    float: right;
+    font-size: 40px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#sidebar {
+    box-sizing: border-box;
+    float: right;
+    width: 20%;
+    margin-top: 10px;
+    background: lightgray;
+    height: 82%;
+    border: 2px solid black;
+}
+
+#sidebar .menu-item {
+    box-sizing: border-box;
+    border-bottom: 2px solid black;
+    margin: 0px 0px;
+    padding: 15px;
+    font-family: arial;
+    cursor: pointer;
+    transition: 0.5s background;
+}
+
+#sidebar .menu-item:hover {
+    background: darkgray;
+    transition: 0.5s background;
+}
+
+#sidebar .menu-sub-item {
+    padding-left: 50px;
+}
+
+#article {
+    box-sizing: border-box;
+    float: left;
+    width: 79%;
+    height: 82%;
+    margin-top: 10px;
+    background: lightgray;
+    border: 2px solid black;
+}
+
+#tabela-alunos {
+    width: 100%;
+    text-align: left;
+    font-family: arial;
+    color: darkblue;
+    background: white;
+}
+
+#tabela-alunos-head {
+    background: darkblue;
+    color: white;
+}
+
+#tabela-alunos-head th {
+    padding: 15px;
+}
+
+#tabela-titulo {
+    font-size: 20px;
+}
+
+#remover-todos-alunos, #atualizar-todos-alunos {
+    box-sizing: border-box;
+    float: right;
+    border: none;
+    padding: 8px 10px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.5s background;
+    margin-left: 10px;
+}
+
+#atualizar-todos-alunos {background: #58B5E4;}
+#atualizar-todos-alunos:hover {background: #3693C2;}
+#remover-todos-alunos {background: #ff0000;}
+#remover-todos-alunos:hover {background: #dd0000;}
+
+.deslogar {background: #ff0000; color: white;}
+.deslogar:hover {background: #dd0000 !important;}
+
+.tabela-alunos-titulo-colunas th {
+    padding: 10px;    
+}
+
+.tabela-alunos-corpo tr td {
+    padding: 10px;
+    font-size: 15px;
+}
+
+.tabela-alunos-corpo tr:nth-child(odd) {
+    background: #f1f1f1;
+}
+
+.tabela-alunos-corpo tr:nth-child(even) {
+    background: white;
+}
+
+.fa-pencil-alt {
+    color: orange;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.fa-trash {
+    color: #ff0000;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.e-mail {
+    cursor: pointer;
+}
+
+#section-new-student {
+    display: none;
+}
+
+#section-about {
+    text-align: justify;
+    display: none;
+}
+
+#section-about p, #section-new-student p {
+    font-family: arial;
+    padding: 0px 15px;
+}
+
+#titulo-sobre, #titulo-novo-aluno {
+    font-size: 20px;
+    font-family: arial;
+    background: #00008B;
+    color: white;
+    padding: 15px;
+    margin-top: 0px;
+}
+
+#titulo-sobre {
+    background: #dd750d;
+}
+
+#titulo-novo-aluno {
+    background: #00bb00;
+}
+
+#novo-estudante-form {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    font-family: arial;
+}
+
+.input-container {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+#novo-estudante-form label {
+    font-size: 18px;
+}
+
+#novo-estudante-form input {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+#novo-estudante-form .icon {
+    color: white;
+    background: #00bb00;
+    margin: 0px;
+    padding: 10px;
+    width: 10%;
+    text-align: center;
+}
+
+#novo-estudante-form button {
+    border: none;
+    margin: 0 auto;
+    display: block;
+    font-size: 15px;
+    border-radius: 3px;
+    padding: 5px 20px;
+    background: #00bb00;
+    color: white;
+    transition: 0.5s background;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 35%;
+    transition: 0.5s background;
+}
+
+#novo-estudante-form button:hover {
+    background: #009900;
+}

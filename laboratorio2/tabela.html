@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Laboratório 2 | Dados</title>
+        <link rel="stylesheet" type="text/css" href="tabela-style.css">
+        <script src="https://kit.fontawesome.com/47257d7297.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="tabela-main.js"></script>
+    </head>
+
+    <body>
+        <div class="home-github">
+            <a title="Página Inicial" href="../index.html"><i class="fas fa-home i-principal i-pr-home"></i></a>
+            <a title="Repositório no GitHub" href="https://github.com/rodolfobolconte/sub-informatica-web/tree/master/laboratorio2" target="_blank"><i class="fab fa-github i-principal i-pr-git"></i></a>
+        </div>
+
+        <div id="container">
+            <div id="topbar">
+                <img id="topbar-img" src="https://iisy.fi/wp-content/uploads/2018/08/user-profile-male-logo.jpg"/>
+
+                <span id="topbar-nome">Rodolfo Bolconte - Laboratório 2 - Comunicação com Servidor e População Dinâmica de Tabela</span>
+                
+                <i id="topbar-menu" class="fas fa-bars"></i>
+            </div>
+
+            <div id="sidebar">
+                <p class="menu-item" onclick="navegar('section-home')"><i class="fas fa-home"></i> Início</p>
+                <p class="menu-item botao-adicionar-aluno" onclick="navegar('section-new-student')"><i class="fas fa-plus-circle"></i> Adicionar Aluno</p>
+                <p class="menu-item" onclick="navegar('section-about')"><i class="fas fa-address-card"></i> Sobre</p>
+                <p class="menu-item deslogar" onclick="deslogar()"><i class="fas fa-power-off"></i> Sair</p>
+            </div>
+
+            <div id="article">
+
+                <div id="section-home" class="container-secao">
+                    <table id="tabela-alunos" cellspacing="0" cellpadding="0">
+                        <thead>
+                            <tr id="tabela-alunos-head">
+                                <th colspan="4" id="tabela-titulo">Alunos Registrados</th>
+                                <th colspan="2">
+                                    <button id="atualizar-todos-alunos">
+                                        <i class="fas fa-retweet"></i>
+                                        Atualizar Lista
+                                    </button>
+                                    <button id="remover-todos-alunos">
+                                        <i class="fas fa-minus-circle"></i>
+                                        Remover Alunos
+                                    </button>
+                                </th>
+                            </tr>
+                            <tr class="tabela-alunos-titulo-colunas">
+                                <th><input type="checkbox" name="" id="checkbox-tabela-alunos-todos"></th>
+                                <th>Nome</th>
+                                <th>Idade</th>
+                                <th>Série</th>
+                                <th>Matrícula</th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
+
+                        <tbody class="tabela-alunos-corpo"></tbody>
+                    </table>
+                </div>
+
+                <div id="section-about" class="container-secao">
+                    <h1 id="titulo-sobre">Sobre</h1>
+
+                    <p>Este Sistema faz parte do Laboratório 2 da Disciplina de Desenvolvimento de Aplicações WEB 1 do Curso Técnico Subsequente em Informática do IFPB Campus Campina Grande.</p>
+                    <p>Consiste no acesso ao Servidor de Dados de Alunos através do Formulário de Login, para que a Tabela na Seção Início possa ser preenchida dinamicamente através da obtenção dos dados do Servidor.</p>
+                </div>
+
+                <div id="section-new-student" class="container-secao">
+                    <h1 id="titulo-novo-aluno">Acidionar Novo Aluno</h1>
+
+                    <div id="novo-estudante-form">
+                        <form method="POST" onsubmit="adicionar(this)">
+                            <label>Nome</label>
+                            <div class="input-container">
+                                <i class="fas fa-user icon"></i>
+                                <input type="text" name="nome"/>
+                            </div>
+
+                            <label>Idade</label>
+                            <div class="input-container">
+                                <i class="fas fa-calendar-alt icon"></i>
+                                <input type="number" name="idade"/>
+                            </div>
+
+                            <label>Série</label>
+                            <div class="input-container">
+                                <i class="fas fa-school icon"></i>
+                                <input type="text" name="serie"/>
+                            </div>
+
+                            <label>Matrícula</label>
+                            <div class="input-container">
+                                <i class="fas fa-graduation-cap icon"></i>
+                                <input type="number" name="matricula"/>
+                            </div>
+
+                            <button type="submit"><i class="fas fa-plus-circle"></i> Adicionar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

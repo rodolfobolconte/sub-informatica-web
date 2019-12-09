@@ -1,0 +1,81 @@
+.home-github {display: block;position: fixed;margin: 5px;padding: 5px;color: white;z-index: 9999;font-size: 20px;bottom: 0px;}.home-github .i-principal {color: white;border-radius: 5px;padding: 5px;transition: 0.5s background;}.home-github .i-pr-home {background: #069;}.home-github .i-pr-git {background: purple;}.home-github .i-principal:hover {transition: 0.5s background;background: gray;}
+
+* {
+    font-family: calibri;
+}
+
+#container {
+    max-width: 30%;
+    margin: auto;
+}
+
+#logo-ifpb {
+    width: 80%;
+    display: block;
+    margin: 30px auto;
+}
+
+.input-container {
+    display: flex;
+    width: 100%;
+    background: blue;
+    padding: 0px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+}
+
+.input-container input {
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    width: 100%;
+    background: #f1f1f1;
+    border: none;
+}
+
+.input-container select {
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    font-size: 20px;
+    width: 100%;
+    border: none;
+    background: #f1f1f1;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+}
+
+button {
+    border: none;
+    font-size: 20px;
+    border-radius: 3px;
+    padding: 5px 20px;
+    background: #007BFF;
+    color: white;
+    transition: 0.5s background;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background: #0069D9;
+    transition: 0.5s background;
+}
+
+.icon {
+  padding: 15px;
+  background: dodgerblue;
+  color: white;
+  min-width: 10%;
+  text-align: center;
+}
+
+#legenda {
+    text-align: center;
+    color: darkgray;
+}
