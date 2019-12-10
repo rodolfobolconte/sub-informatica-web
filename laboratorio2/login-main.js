@@ -24,7 +24,11 @@ var logar = (login, senha) => {
 
 function logar2(objeto) {
 
-    console.log(objeto[0].value);
-    console.log(objeto[1].value);
+    let login = objeto[0].value;
+    let senha = objeto[1].value;
 
+    if (login == "ifpb" && senha == "ifpb#123")
+        window.location.assign("tabela.html");
+    else
+        alert("Login ou Senha Incorretos! Tente Novamente.");
 };

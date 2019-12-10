@@ -109,7 +109,6 @@
     border: none;
     padding: 8px 10px;
     color: white;
-    border-radius: 3px;
     cursor: pointer;
     transition: 0.5s background;
     margin-left: 10px;
@@ -154,6 +153,10 @@
 
 .e-mail {
     cursor: pointer;
+}
+
+#section-home {
+    display: block;
 }
 
 #section-new-student {
@@ -227,8 +230,7 @@
     margin: 0 auto;
     display: block;
     font-size: 15px;
-    border-radius: 3px;
-    padding: 5px 20px;
+    padding: 10px 20px;
     background: #00bb00;
     color: white;
     transition: 0.5s background;

@@ -73,7 +73,7 @@
                     <h1 id="titulo-novo-aluno">Acidionar Novo Aluno</h1>
 
                     <div id="novo-estudante-form">
-                        <form method="POST" onsubmit="adicionar(this)">
+                        <form method="POST" onsubmit="inserirNovoAluno(this); return false;">
                             <label>Nome</label>
                             <div class="input-container">
                                 <i class="fas fa-user icon"></i>
@@ -95,7 +95,7 @@
                             <label>Matrícula</label>
                             <div class="input-container">
                                 <i class="fas fa-graduation-cap icon"></i>
-                                <input type="number" name="matricula"/>
+                                <input type="text" name="matricula"/>
                             </div>
 
                             <button type="submit"><i class="fas fa-plus-circle"></i> Adicionar</button>
