@@ -5,16 +5,19 @@ $(document).ready(function () {
     });
 });
 
-var logar = (login, senha) => {
-    
+var logar = (formulario) => {
+
+    let login = formulario[0].value;
+    let senha = formulario[1].value;
+
     var xhr = new XMLHttpRequest();
-    xhr.open("POST", "https://cadastro-ifpb-prod.herokuapp.com/" + "auth/", true);
+    xhr.open("POST", "https://cadastro-ifpb-prod.herokuapp.com/auth/login", true);
     xhr.setRequestHeader("Content-Type", "application/json");
     
     xhr.onreadystatechange = function (response) {
-        if (xhr.responseText && xhr.status === 200) {
-            var json = JSON.parse(xhr.responseText);
-            console.log(json.login + ", " + json.password);
+        if (xhr.readyState == 4 && xhr.status === 200) {
+            alert("Login Realizado com Sucesso");
+            window.location.assign("tabela.html");
         }
     };
 

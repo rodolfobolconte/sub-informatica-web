@@ -17,7 +17,7 @@
         <div id="container">
             <img id="logo-ifpb" src="https://ieeeifpbcg.org/wp-content/uploads/2018/06/ifpb-campina-grande.png"/>
 
-            <form method="POST" onsubmit="logar2(this); return false;">
+            <form method="POST" onsubmit="logar(this); return false;">
                 <label>Login</label>
                 <div class="input-container">
                     <i class="fas fa-user icon"></i>
@@ -28,16 +28,6 @@
                 <div class="input-container">
                     <i class="fas fa-key icon"></i>
                     <input type="password" name="password"/>
-                </div>
-
-                <label>Curso</label>
-                <div class="input-container">
-                    <i class="fas fa-school icon"></i>
-                    <select>
-                        <option>Bacharel em Engenharia de Computação</option>
-                        <option>Subsequente em Informática</option>
-                        <option>Tecnólogo em Telemática</option>
-                    </select>
                 </div>
 
                 <button type="submit">Entrar</button>
