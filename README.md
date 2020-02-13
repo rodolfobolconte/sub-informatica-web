@@ -1,6 +1,7 @@
 # Desenvolvimento de Aplicações WEB
 
 [![HTML5](https://img.shields.io/badge/HTML-5-F16528)](https://www.w3schools.com/html/html5_intro.asp) [![CSS3](https://img.shields.io/badge/CSS-3-0170BA)](https://www.w3schools.com/css/) [![JavaScript](https://img.shields.io/badge/JavaScript-2018-F7E018)](https://www.w3schools.com/css/) [![JavaScript](https://img.shields.io/badge/jQuery-3.4.1-0769AD)](https://www.w3schools.com/css/)
+
 [![Sublime Text 3](https://img.shields.io/badge/Sublime%20Text%203-Build%203176-orange)](https://www.sublimetext.com/3) [![VS Code](https://img.shields.io/badge/Visual%20Studio%20Code-1.42.0-purple)](https://code.visualstudio.com/)
 
 Repositório de Práticas das disciplinas de Desenvolvimento de Aplicações WEB I e II do Curso Técnico Subsequente em Informática do IFPB Campus Campina Grande, nos períodos 2019.2 e 2020.1.
