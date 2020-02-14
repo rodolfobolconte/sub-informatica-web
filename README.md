@@ -13,12 +13,13 @@ As atividades práticas se encontram no seguinte link: [https://rodolfobolconte.
 ## Lista de Atividades Práticas
 
 ### Desenvolvimento de Aplicações WEB I
-* [Atividade 1 - Tela de Login do IFPB](https://rodolfobolconte.github.io/sub-informatica-web/atividade1/index.html);
-* [Atividade 2 - Tela de Login Comum](https://rodolfobolconte.github.io/sub-informatica-web/atividade2/index.html);
-* [Prática 1 - Página com Sidebars e Table](https://rodolfobolconte.github.io/sub-informatica-web/pratica1/index.html);
-* [Laboratório 1 - Página de Alunos Cadastrados](https://rodolfobolconte.github.io/sub-informatica-web/laboratorio1/index.html);
-* [Prática 2 - Navegação em Menu com JavaScript](https://rodolfobolconte.github.io/sub-informatica-web/pratica2/index.html);
-* [Prática 3 - População de Tabela com JavaScript](https://rodolfobolconte.github.io/sub-informatica-web/pratica3/index.html);
-* [Laboratório 2 - Comunicação com Servidor e População Dinâmica de Tabela](https://rodolfobolconte.github.io/sub-informatica-web/laboratorio2/index.html);
+* [Atividade 1 - Tela de Login do IFPB](https://rodolfobolconte.github.io/sub-informatica-web/web-I/atividade1/index.html);
+* [Atividade 2 - Tela de Login Comum](https://rodolfobolconte.github.io/sub-informatica-web/web-I/atividade2/index.html);
+* [Prática 1 - Página com Sidebars e Table](https://rodolfobolconte.github.io/sub-informatica-web/web-I/pratica1/index.html);
+* [Laboratório 1 - Página de Alunos Cadastrados](https://rodolfobolconte.github.io/sub-informatica-web/web-I/laboratorio1/index.html);
+* [Prática 2 - Navegação em Menu com JavaScript](https://rodolfobolconte.github.io/sub-informatica-web/web-I/pratica2/index.html);
+* [Prática 3 - População de Tabela com JavaScript](https://rodolfobolconte.github.io/sub-informatica-web/web-I/pratica3/index.html);
+* [Laboratório 2 - Comunicação com Servidor e População Dinâmica de Tabela](https://rodolfobolconte.github.io/sub-informatica-web/web-I/laboratorio2/index.html);
 
 ### Desenvolvimento de Aplicações WEB II
+* [Prática 1 - Revisão de Formulários](https://rodolfobolconte.github.io/sub-informatica-web/web-II/pratica1/index.html);
