@@ -23,3 +23,5 @@ As atividades práticas se encontram no seguinte link: [https://rodolfobolconte.
 
 ### Desenvolvimento de Aplicações WEB II
 * [Prática 1 - Revisão de Formulários](https://rodolfobolconte.github.io/sub-informatica-web/web-II/pratica1/index.html);
+* [Prática 2 - Listas e Tabelas](https://rodolfobolconte.github.io/sub-informatica-web/web-II/pratica2/index.html);
+* [Prática 3 - ](https://rodolfobolconte.github.io/sub-informatica-web/web-II/pratica3/index.html);
